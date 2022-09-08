@@ -8,9 +8,9 @@ public class UnitTest1
     public void isleapYearTrue()
     {
         //Arrange
-        //var p = new Program();
+        
         //Act
-        bool result = Program.IsLeapYear(20);
+        bool result = Program.IsLeapYear(2000);
         //Assert
         Assert.True(result);
     }
@@ -19,9 +19,9 @@ public class UnitTest1
     public void isleapYearFalse()
     {
         //Arrange
-        //var p = new Program();
+        
         //Act
-        bool result = Program.IsLeapYear(19);
+        bool result = Program.IsLeapYear(1999);
         //Assert
         Assert.False(result);
     }
